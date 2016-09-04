@@ -1,6 +1,6 @@
 
 
-#[derive(Clone, Copy)]
+#[derive(Clone, Copy, Eq, PartialEq)]
 pub enum ErrorCode {
     NoMem = 0,
 }
