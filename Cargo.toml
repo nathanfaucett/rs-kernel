@@ -10,8 +10,10 @@ readme = "README.md"
 repository = "https://github.com/Bakasho/rs-kernel.git"
 homepage = "https://github.com/Bakasho/rs-kernel"
 
-[dependencies]
-rlibc = "1.0"
+[dependencies.memory_area]
+#git = "https://github.com/nathanfaucett/rs-memory_area.git"
+path = "../rs-memory_area"
 
-[dependencies.vga]
-git = "https://github.com/nathanfaucett/rs-vga.git"
+[dependencies.errno]
+#git = "https://github.com/nathanfaucett/rs-errno.git"
+path = "../rs-errno"
